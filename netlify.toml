@@ -1,3 +1,8 @@
 [build]
-command = "npx next build"
+command = "npm run build"
 publish = "out"
+
+[[redirects]]
+from = "/*"
+to = "/404.html"
+status = 404
